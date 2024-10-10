@@ -1,0 +1,101 @@
+---
+layout: page
+gh-repo: richa-namballa/mss-demo
+gh-badge: [star, watch, fork, follow]
+share-description: Musical Source Separation of Brazilian Percussion
+---
+
+<head>
+    <title>Musical Source Separation of Brazilian Percussion</title>
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 mx-auto text-center">
+                <h1>Musical Source Separation of Brazilian Percussion</h1>
+            </div>
+            <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <section class="testimonials text-center">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 text-center">
+                    <div class="testimonial-item mx-auto">
+                        <h3 style="white-space: nowrap;">
+                            <a href="http://richa-namballa.github.io/" style="text-decoration: none;">
+                                Richa Namballa
+                            </a>
+                        </h3>
+                        <p><a href="mailto:richa.namballa@nyu.edu">richa.namballa@nyu.edu</a></p>
+                        <p>New York University<br>New York City, United States</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <h5 class="mx-auto text-center" style="color: black">Submitted to ISMIR 2024 as a Late-Breaking Demo</h5>
+
+    </h4>
+    </div>
+
+    <br>
+    <h2 style="text-align: center">Abstract</h2>
+    <p class="lead mb-0" align="justify" style="padding-bottom: 20px;">
+    Musical source separation (MSS) has recently seen a big breakthrough in separating instruments from a mixture in the context of Western music, but research on non-Western instruments is still limited due to a lack of data.
+    In this demo, we use an existing dataset of Brazilian <em>samba</em> percussion to create artificial mixtures for training a U-Net model to separate the <em>surdo</em> drum, a traditional instrument in <em>samba</em>. Despite limited training data, the model effectively isolates the <em>surdo</em>, given the drum’s repetitive patterns and its characteristic low-pitched timbre. These results suggest that MSS systems can be successfully harnessed to work in more culturally-inclusive scenarios without the need of collecting extensive amounts of data.
+    </p>
+    <br>
+
+    <br>
+    <h2 style="text-align: center; padding-bottom: 20px;">Audio Examples</h2>
+    <div class="container">
+        <div class="row">
+            <h5>Randomly Generated Mix from the Brazilian Rhythmic Instrument Dataset (BRID)</h5>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row" style="width: 100%; height: auto; margin-bottom: 30px;">
+            <audio controls>
+              <source src="assets/audio/mix_test.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <h5><em>Surdo</em> Stem Separated by the Model</h5>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row" style="width: 100%; height: auto; margin-bottom: 30px;">
+            <audio controls>
+              <source src="assets/audio/surdo_test.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+        <div class="container">
+        <div class="row">
+            <h5><em>Surdo</em> Stem of a YouTube Video Excerpt Separated by the Model</h5>
+        </div>
+        <div class="row" style="width: 100%; height: auto; margin-bottom: 10px;">
+            <a href="https://youtu.be/mmlK94QvwiA?si=CWb1SZExgO69kAzv">Original YouTube Video</a>
+            <br>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <audio controls>
+              <source src="assets/audio/surdo_cuica.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+
+</body>
