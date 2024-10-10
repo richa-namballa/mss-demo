@@ -15,7 +15,7 @@ author: Richa Namballa
 
 # navbar-links:
 #   Demos: "demos"
-#   #Architecture: "architecture"
+#   # Architecture: "architecture"
 #   About us:
 #     - Juan F. Montesinos: "https://juanmontesinos.com"
 #     - Venkatesh S. Kadandale: "https://vskadandale.github.io"
@@ -32,7 +32,7 @@ round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-#title-img: /path/to/image
+# title-img: /path/to/image
 
 
 # --- Footer social media links --- #
@@ -40,9 +40,9 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-##email: "jfmontgar@gmail.com"
+#  email: "jfmontgar@gmail.com"
 #  facebook: deanattali
-##github: JuanFMontesinos/VoViT
+#  github: JuanFMontesinos/VoViT
 #  twitter: daattali
 #  patreon: DeanAttali
 #  youtube: c/daattali
@@ -66,7 +66,7 @@ social-network-links:
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
-##rss-description: This website is a virtual proof that I'm awesome
+# rss-description: This website is a virtual proof that I'm awesome
 
 # --- General options --- #
 
@@ -75,11 +75,10 @@ share-links-active:
   twitter: false
   facebook: false
   linkedin: false
-  vk: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-#url-pretty: "juanmontesinos.com"
+url-pretty: "https://richa-namballa.github.io/"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -91,7 +90,7 @@ feed_show_excerpt: true
 feed_show_tags: true
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+# keywords: "my,list,of,keywords"
 
 # --- Colours / background image --- #
 
@@ -111,12 +110,12 @@ footer-link-col: "#404040"
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
 
-#navbar-img: "/assets/img/bgimage.png"
-#footer-img: "/assets/img/bgimage.png"
-#page-img: "/assets/img/bgimage.png"
+# navbar-img: "/assets/img/bgimage.png"
+# footer-img: "/assets/img/bgimage.png"
+# page-img: "/assets/img/bgimage.png"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
-#mobile-theme-col: "#0085A1"
+# mobile-theme-col: "#0085A1"
 
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
 site-css:
@@ -128,24 +127,24 @@ site-css:
   - "https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic"
 
 # If you have common JavaScript files that should be included in every page, list them here
-#site-js:
+# site-js:
 #  - "/assets/js/custom-script.js"
 
 # --- Web Analytics Section --- #
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-#gtag: ""
+# gtag: ""
 
 # Fill in your Google Analytics ID to track your website using Google Analytics
-#google_analytics: ""
+# google_analytics: ""
 
 # Google Tag Manager ID
-#gtm: ""
+# gtm: ""
 
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
 # whether or not you want to allow users to opt out of tracking.
-#matomo:
+# matomo:
 #  site_id: "9"
 #  uri: "demo.wiki.pro"
 #  opt-out: true
@@ -153,16 +152,16 @@ site-css:
 # --- Comments --- #
 
 # To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
-#disqus: ""
+# disqus: ""
 
 # To use Facebook Comments, create a Facebook app and fill in the Facebook App ID
-#fb_comment_id: ""
+# fb_comment_id: ""
 
 # To use Utterances comments: (0) uncomment the following section, (1) fill in
 # "repository" (make sure the repository is public), (2) Enable Issues in your repository,
 # (3) Install the Utterances app in your repository https://github.com/apps/utterances
 # See more details about the parameters below at https://utteranc.es/
-#utterances:
+# utterances:
 #  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
 #  issue-term: title   # Mapping between blog posts and GitHub issues
 #  theme: github-light # Utterances theme
@@ -174,7 +173,7 @@ site-css:
 # https://github.com/eduardoboucas/staticman/ and https://staticman.net/ for further 
 # instructions. For any support with staticman please direct questions to staticman and 
 # not to BeautifulJekyll.
-#staticman:
+# staticman:
 #  repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
 #  branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
 #  endpoint   : # URL of your deployment, with a trailing slash eg. "https://<your-api>/v3/entry/github/"
@@ -188,7 +187,7 @@ site-css:
 date_format: "%B %-d, %Y"
 
 # Facebook App ID
-#fb_app_id: ""
+# fb_app_id: ""
 
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
@@ -234,7 +233,5 @@ plugins:
 # Google Analytics
 google_analytics: G-6B4QC0T094
 
-
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-
